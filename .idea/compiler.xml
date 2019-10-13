@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-maven-deom1" />
+        <module name="SpringMavenDemo1" />
+        <module name="SpringMavenFilter" />
+        <module name="SpringMavenJson" />
+        <module name="SpringMavenJsp" />
+        <module name="SpringMavenListener" />
+        <module name="SpringMavenServlet" />
+        <module name="SpringMavenStatic" />
+        <module name="SpringMavenThymeleaf" />
+        <module name="SpringMavenUpload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pringmavenupload" target="1.5" />
+      <module name="spring-maven-deom1" target="1.8" />
+      <module name="SpringMavenStatic2" target="1.8" />
+      <module name="SpringMybatis" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
