@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMavenDemo1/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMavenJson/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMavenConfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMavenFreemarker/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
