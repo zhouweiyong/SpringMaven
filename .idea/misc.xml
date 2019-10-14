@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/SpringMavenJson/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMavenConfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMavenFreemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMavenCatchException/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMavenMybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

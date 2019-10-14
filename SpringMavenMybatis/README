@@ -1,0 +1,6 @@
+使用generatorConfig生成mapper以及pojo
+实现基于mybatis的CRUD功能
+整合mybatis-pagehelper实现分页
+
+自定义mapper的实现
+

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-maven-deom1" />
+        <module name="SpringMavenCatchException" />
         <module name="SpringMavenConfiguration" />
         <module name="SpringMavenDemo1" />
         <module name="SpringMavenFilter" />
@@ -14,6 +15,7 @@
         <module name="SpringMavenJson" />
         <module name="SpringMavenJsp" />
         <module name="SpringMavenListener" />
+        <module name="SpringMavenMybatis" />
         <module name="SpringMavenServlet" />
         <module name="SpringMavenStatic" />
         <module name="SpringMavenThymeleaf" />
