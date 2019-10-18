@@ -1,9 +1,11 @@
 package com.zwy.mybatis.service;
 
+import com.github.pagehelper.PageHelper;
 import com.zwy.mybatis.mapper.UserMapper;
 import com.zwy.mybatis.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -39,11 +41,30 @@ public class UserService {
         userMapper.delete(user);
     }
 
+    /**
+     * 使用事务
+     * @param user
+     */
+    @Transactional
     public void add(User user) {
 //        int id = userMapper.insert(user);
         userMapper.insertUseGeneratedKeys(user);
-        user.setAge(38);
+        user.setAge(41);
+        int i = 1/0;
         userMapper.updateByPrimaryKeySelective(user);
+    }
+
+    public List<User> findUserPage(User user, int page, int pageSize){
+        PageHelper.startPage(page,pageSize);
+        Example example = new Example(User.class);
+        Example.Criteria criteria = example.createCriteria();
+        if (!user.getName().isEmpty()){
+            criteria.andLike("name","%"+user.getName()+"%");
+        }
+        example.orderBy("id").desc();
+        List<User> list = userMapper.selectByExample(example);
+        return list;
+
     }
 
 }

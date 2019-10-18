@@ -927,9 +927,7 @@
     <table id="233" parent="2" name="hibernate_sequence">
       <Engine>MyISAM</Engine>
     </table>
-    <table id="234" parent="2" name="user">
-      <Engine>MyISAM</Engine>
-    </table>
+    <table id="234" parent="2" name="user"/>
     <column id="235" parent="233" name="next_val">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>

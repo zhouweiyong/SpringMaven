@@ -35,13 +35,13 @@
             <version>1.1.0</version>
         </dependency>
 
-        <!--mapper-->
+        <!--mapper逆向生成mapper-->
         <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>1.2.4</version>
         </dependency>
-        <!--pagehelper-->
+        <!--pagehelper分页-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
