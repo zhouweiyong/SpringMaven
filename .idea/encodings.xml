@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/HelloSpring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMavenAsync" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenCatchException" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenConfiguration" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenDemo1" charset="UTF-8" />
@@ -13,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/SpringMavenMybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenServlet" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenStatic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringMavenTask" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenThymeleaf" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringMavenUpload" charset="UTF-8" />
   </component>

@@ -53,6 +53,9 @@ public class UserController {
         service.update(user);
     }
 
+    /**
+     * 使用事务
+     */
     @RequestMapping("/addOne")
     public void addOne(){
         User user = new User();

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-maven-deom1" />
+        <module name="SpringMavenAsync" />
         <module name="SpringMavenCatchException" />
         <module name="SpringMavenConfiguration" />
         <module name="SpringMavenDemo1" />
@@ -18,6 +19,7 @@
         <module name="SpringMavenMybatis" />
         <module name="SpringMavenServlet" />
         <module name="SpringMavenStatic" />
+        <module name="SpringMavenTask" />
         <module name="SpringMavenThymeleaf" />
         <module name="SpringMavenUpload" />
       </profile>
