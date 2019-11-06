@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/SpringMavenMybatis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMavenTask/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMavenAsync/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMavenInterceptor/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

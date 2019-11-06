@@ -13,6 +13,7 @@
         <module name="SpringMavenDemo1" />
         <module name="SpringMavenFilter" />
         <module name="SpringMavenFreemarker" />
+        <module name="SpringMavenInterceptor" />
         <module name="SpringMavenJson" />
         <module name="SpringMavenJsp" />
         <module name="SpringMavenListener" />
